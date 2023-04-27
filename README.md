@@ -98,7 +98,8 @@ void loop() {
 ```
 
 ## CIRCUIT DIAGRAM:
-![output](./LOcd.png)
+![LOcd](https://user-images.githubusercontent.com/117915037/234889058-092fa648-3649-411d-939d-83c66c1f4dce.png)
+
 
 ## OUTPUT:
 ![output](./LOout.png)
