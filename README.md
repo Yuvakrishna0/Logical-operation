@@ -93,7 +93,7 @@ void loop() {
 ```
 
 ## CIRCUIT DIAGRAM:
-![output](./LOCD.png)
+![output](./LOcd.png)
 
 ## OUTPUT:
 ![output](./LOout.png)
