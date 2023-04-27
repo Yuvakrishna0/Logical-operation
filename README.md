@@ -29,12 +29,17 @@ Step13:Click start button and check the output</br>
 
 ## THEORY:
 ```
-Logical operators give you another element of control over the flow of your program. Also known as Boolean operators, they can be very powerful when used inside the condition of an if statement or while loop. In this article we will discuss the three most common logical operators – AND, OR, and NOT.
+Logical operators give you another element of control over the flow of your program.
+Also known as Boolean operators,they can be very powerful when used inside the condition of an 
+if statement or while loop. In this article we will discuss the three most common logical operators
+– AND, OR, and NOT.
 
-The AND logical operator evaluates two variables and returns a true value only when both variables are true. It’s written with two ampersands (&&).
+The AND logical operator evaluates two variables and returns a true value only when both variables are true. 
+It’s written with two ampersands (&&).
 The OR operator is written with two vertical bars (||).
 
-The vertical bar key is usually found above the Enter key on most keyboards. With the OR operator, if any of the variables are true, the outcome will be true.
+The vertical bar key is usually found above the Enter key on most keyboards. With the OR operator, 
+if any of the variables are true, the outcome will be true.
 The NOT operator is written with an exclamation point (!).
 
 The NOT operator makes a true statement false, and a false statement true:
