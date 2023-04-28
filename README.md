@@ -151,7 +151,7 @@ void loop() {
 
 
 ## OUTPUT:
-![LOout](https://user-images.githubusercontent.com/117915037/235051370-3be9f6e8-c80a-4ae9-a791-d94bb0cc4408.png)![LOcd](https://user-images.githubusercontent.com/117915037/235051403-cb77892b-ad91-4528-993e-7058b81a34f0.png)
+![LOout](https://user-images.githubusercontent.com/117915037/235051370-3be9f6e8-c80a-4ae9-a791-d94bb0cc4408.png)
 
 
 
