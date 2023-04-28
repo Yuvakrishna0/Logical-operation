@@ -121,49 +121,28 @@ gate are high, then the output of the EX-NOR gate will be high. But, if any one 
 
 ## PROGRAM:
 ```
-int bs0 = 0;         // variable for reading the pushbutton status
+int bs0 = 0;        
 int bs1 = 0;
-int bs2 = 0;         // variable for reading the pushbutton status
-int bs3 = 0;
-int bs4 = 0;         // variable for reading the pushbutton status
-int bs5 = 0;
+
 void setup() {
   pinMode(13, OUTPUT);
   pinMode(0, INPUT);
   pinMode(1, INPUT);
-  pinMode(2, INPUT);
-  pinMode(3, INPUT);
-  pinMode(4, INPUT);
-  pinMode(5, INPUT);
-}
+ }
 void loop() {
 
   bs0 = digitalRead(0);
   bs1 = digitalRead(1);
-  bs2 = digitalRead(2);
-  bs3 = digitalRead(3);
-  bs4 = digitalRead(4);
-  bs5 = digitalRead(5);
-
-  if (bs4 == 0 && bs5 == 0) 
+   if (bs0&bs1) 
   {
-      digitalWrite(13, bs0);
+      digitalWrite(13, HIGH);
   } 
-  else if (bs4 == 0 && bs5 == 1) 
+  else 
   {
     
-    digitalWrite(13, bs1);
+    digitalWrite(13, LOW);
   }
-   else if (bs4 == 1 && bs5 == 0) 
-  {
-    
-    digitalWrite(13, bs2);
-  }
-   else   if (bs4 == 1 && bs5 == 1) 
-  {
-      digitalWrite(13, bs3);
-  } 
-}
+ }
 ```
 
 ## CIRCUIT DIAGRAM:
